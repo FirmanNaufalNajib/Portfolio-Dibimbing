@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" 
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" 
+    crossorigin="anonymous">
+  </head>
+<body>
+  
+    <header>
+        <nav class="nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#stacks">Stacks</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>       
+            </ul>
+
+            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Contact
+            </button>
+        </nav>
+    </header>
+
+    <!-- home -->
+
+    <section class="container" id="home">
+        <div class="row">
+            <div class="col" id="home-text">
+              <h2>Hello</h2>
+              <h1>my name is Firman</h1>
+              <p>Welcome to my portfolio. I'm a Front End Developer, specializing in Website.</p>
+            </div>
+            <img src="./assets/home-ilustration.jpg" class="img-fluid col" alt="home ilustration" id="home-ilustration">
+          </div>
+          </section>
+
+  <!-- about -->
+    <section id="about">
+      <div class="container">
+        <h1>About Me</h1>
+
+      <div class="about-me row">
+            <div class="col">
+              <img class="col" src="./assets/personal-photo.jpg"  id="personal-photo"/>
+            </div>
+
+            <div class="col">
+              <p class="col" >Hello! I'm front-end web developer enthusiast. I was about finished my bootcamp at Dibimbing where I completed several projects.
+                I'm passionate to create conceptual website with the proportional nuance. Also it could be more passionate and challenging to create a website which precisely as you expecting. 
+                I look forward to applying my skills and learning more as I advance in my web development journey.
+              </p>
+            </div>
+      </div>
+
+      </div>   
+    </section>
+
+    <!-- stacks -->
+
+    <section class="container-fluid" id="stacks">
+        <h1>Stacks</h1>
+        <div >
+        <img src="./assets/JavascriptLogo.png" id="javascript-logo"/>
+        <img src="./assets/FigmaLogo.png" id="figma-logo"/>
+        <img src="./assets/ReactLogo.png" id="react-logo"/>
+        <img src="./assets/NextLogo.png" id="next-logo"/>
+        <img src="./assets/ReduxLogo.png" id="redux-logo"/>
+        <img src="./assets/BootstrapLogo.png" id="bootstrap-logo"/>       
+        <img src="./assets/JestLogo.png" id="jest-logo"/>        
+        <img src="./assets/GithubLogo.png" id="github-logo"/>
+        <img src="./assets/VercelLogo.png" id="vercel-logo"/>   
+      </div>   
+   </section>
+
+    <section id="portofolio">
+        <h1>Portfolio</h1>
+
+        <div class="gallery container-fluid">
+
+          <div class="card row">
+            <img src="./assets/project1-image.png" class="card-img-top col" alt="...">
+            <div class="card-body col">
+              <h5 class="card-title">Zero Resto</h5>
+              <p class="card-text">Restaurant Website which provide variant western casual menus with price tag and name.</p>
+            </div>
+          </div>
+          <div class="card row">
+            <img src="./assets/project2-image.png" class="card-img-top col" alt="...">
+            <div class="card-body col">
+              <h5 class="card-title">Personal Contact</h5>
+              <p class="card-text">This is a website with contact list which allow you to add and delete contact.</p>
+            </div>
+          </div>
+          <div class="card row">
+            <img src="./assets/project3-image.png" class="card-img-top col" alt="...">
+            <div class="card-body col">
+              <h5 class="card-title">Jalan Jalan</h5>
+              <p class="card-text">Jalan Jalan is a website for people who are looking for travel. It Developed in two perspective. First, it is a travel agency. Second, it is a travel blog.</p>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+   
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+
+            <section id="contact">
+              <h1>Contact me at</h1>
+              <p>firmannaufalnajib@gmail.com</p>
+              
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+    <footer >
+        <div>
+        <h3>In touch</h3>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/firman.najib" class="text-emphasis me-3"><i class="bi bi-facebook" style="color: #fff;"></i></a>
+            <a href="https://www.linkedin.com/in/firman-najib/" class="text-emphasis me-3"><i class="bi bi-linkedin" style="color: #fff;"></i></a>
+            <a href="https://github.com/FirmanNaufalNajib" class="text-emphasis me-3"><i class="bi bi-github" style="color: #fff;"></i></a>
+        </div>
+
+          <p>&copy; 2024 Firman Najib. All rights reserved.</p>
+          
+
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
