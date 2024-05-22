@@ -180,8 +180,6 @@ footer {
   max-width: 500px;
   max-height: 400px;
   border-radius: 50%;
-  
-  
 }
 
 /* stacks */
@@ -203,17 +201,63 @@ footer {
 
 /* portofolio */
 
-#portofolio {
+#portfolio {
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-top: 100px;
-  color: #01295a;
-  
+  color: #01295a;  
 }
 
 .card {
-
   transition: all 0.3s ease;
   background-color: #013b84;
+}
+
+
+/* form contanct */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  width: 300px;
+}
+.contact-form h2 {
+  margin-top: 0;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact-form input[type="submit"] {
+  background: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.contact-form input[type="submit"]:hover {
+  background: #45a049;
 }
